@@ -1,0 +1,8 @@
+SOURCE: Bharatiya Nagarik Suraksha Sanhita (BNSS), 2023
+TOPIC: Filing an FIR (First Information Report) and e-FIRs
+
+1. Zero FIR: A police station cannot refuse to register an FIR on the grounds of jurisdiction. A "Zero FIR" can be filed at any police station, regardless of where the crime occurred, and it will be transferred to the correct jurisdiction later.
+2. Electronic FIR (e-FIR): Citizens can now report incidents electronically (e-FIR) without physically visiting a police station. However, the informant must sign it within three days for it to become a formal FIR.
+3. Right to a Free Copy: The informant who files the FIR is legally entitled to receive a copy of the FIR free of cost immediately after it is recorded.
+4. Refusal to register FIR: If a police officer refuses to register an FIR, the aggrieved person can send the information in writing via post to the Superintendent of Police (SP). If the SP is satisfied that a cognizable offence is disclosed, they will investigate or direct a subordinate to investigate.
+5. Preliminary Inquiry: For offences punishable by 3 to 7 years, the police can conduct a preliminary inquiry within 14 days before registering an FIR, but only to ascertain if a cognizable offence exists.
