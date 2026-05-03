@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 
 # --- CONFIGURATION ---
-DIFY_API_KEY = ""
+DIFY_API_KEY = "app-4LzQbNQEtQ8JrOnwfyqSm7qI"
 DIFY_API_URL = "https://api.dify.ai/v1/chat-messages"
 
 # --- UI OVERHAUL ---
