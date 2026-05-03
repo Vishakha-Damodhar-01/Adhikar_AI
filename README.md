@@ -28,7 +28,11 @@ Traditional search engines give you links; AdhikarAI gives you answers.
 
 ---
 
+---
+
 ## 🤖 How the AI Works
+##
+
 ```text
        User Asks a Legal Question
                   ↓
@@ -39,62 +43,68 @@ Traditional search engines give you links; AdhikarAI gives you answers.
     LLM processes legal text → Simplified English
                   ↓
     UI renders response in Tricolour Interface
-🚀 Features
-Glassmorphism UI: A modern "Frosted Glass" interface with a stable two-column layout.
+```
+---
 
-High-Contrast Toggles: Teal-blue buttons for category selection with micro-interactions.
+## 🚀 Features
+---
 
-Context-Aware Prompting: The AI "knows" if you are a victim, a student, or a concerned citizen based on your query.
+## 🚀 Key Features
 
-Indian Flag Aesthetic: A respectful, professional design language reflecting the project's national mission.
+*   **🧠 RAG-Powered Accuracy:** Unlike standard AI, our pipeline retrieves exact sections from the official **BNS & BNSS 2023** gazettes to prevent hallucinations.
+*   **🤖 Agentic Reasoning:** The system doesn't just summarize; it autonomously reasons through your specific context (e.g., "Am I being illegally detained?") to provide step-by-step legal procedures.
+*   **⚖️ Zero-Jargon Policy:** Every response is processed by a custom-prompted LLM engine to simplify complex legal terms into an 8th-grade reading level.
+*   **🇮🇳 Tricolour Glassmorphism UI:** A premium, modern interface designed with an Indian flag aesthetic, featuring frosted glass effects and high-contrast toggles.
+*   **📂 Specialized Dataset Toggles:** Users can specifically target their queries toward **Women Safety**, **Labor Laws**, **FIR Rules**, or **Arrest Rights**.
 
-🛠️ Tech Stack
-Backend & AI
+---  
+---
 
-Dify.ai: For RAG orchestration and Knowledge Base management.
+## 🛠️ Tech Stack
 
-BNS/BNSS Datasets: Official 2023 Indian Legal Gazettes.
+### Backend & AI
+*   **Dify.ai:** Used for RAG orchestration and seamless Knowledge Base management.
+*   **BNS/BNSS Datasets:** Grounded in the official 2023 Indian Legal Gazettes for high accuracy.
+*   **Python:** Powers the core logic, API handling, and data processing.
 
-Python: Core logic and API integration.
+### Frontend
+*   **Streamlit:** Provides a fast, responsive, and data-focused user interface.
+*   **Custom CSS:** Implements the radiant tricolour background and premium Glassmorphism effects.
 
-Frontend
+---
 
-Streamlit: For a fast, responsive, and data-focused UI.
+## ⚙️ Setup & Installation
 
-Custom CSS: For the radiant tricolour background and Glassmorphism.
-
-⚙️ Setup & Installation
-1. Clone the Repo
-Bash
+### 1. Clone the Repo
+```bash
 git clone [https://github.com/Vishakha-Damodhar-01/AdhikarAI.git](https://github.com/Vishakha-Damodhar-01/AdhikarAI.git)
 cd AdhikarAI
-2. Install Dependencies
-Bash
+```
+
+----
+### 2. Install Dependencies
+```bash
 pip install -r requirements.txt
-3. Configure API
-Create a .streamlit/secrets.toml or edit app.py:
+```
 
-Python
-DIFY_API_KEY = "your_dify_secret_key"
-4. Run App
-Bash
+----
+### 3. Configure API Key
+Open app.py and replace the placeholder with your Dify Secret Key:
+```bash
+DIFY_API_KEY = "YOUR_SECRET_API_KEY_HERE"
+```
+---
+### 4. Run the Application
+```bash
 streamlit run app.py
-🔮 Future Scope
-🗣️ Voice Support: STT (Speech-to-Text) for non-literate users.
+```
 
-🌍 Vernacular AI: Native support for Hindi, Marathi, and Tamil.
+---
+## 📜 Future Scope
+*  **🗣️ Voice Support:** Implementing Speech-to-Text (STT) functionality for non-literate or visually impaired users.
+* **🌍 Vernacular AI:** Expanding native support for Hindi, Marathi, and other regional languages.
+*  **📱 WhatsApp Integration:** Developing a lightweight legal bot for easy access in rural areas via WhatsApp API.
 
-📱 WhatsApp Integration: A legal bot for easy access in rural areas.
-
-⚖️ License
-Distributed under the MIT License. See LICENSE for more information.
-
-Built with 🇮🇳 by Vishakha for the Digital India Vision.
-
-
-### Why this is better:
-1.  **The Hook:** It defines the project's mission ("Empowering 1.4 Billion Citizens") immediately.
-2.  **Skimmability:** Tables and bullet points make it easy for a judge to see your tech stack and features.
-3.  **Modern Feel:** The use of emojis (🧠, 🎯, 🤖) and the "How it Works" flow makes it look like a high-end AI tool.
-
-Go ahead and paste this into your `README.md`. It’s going to make a massive differen
+---
+## ⚖️ License
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
