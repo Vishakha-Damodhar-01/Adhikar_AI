@@ -1,4 +1,4 @@
-# 🇮🇳 AdhikarAI: RAG-Based Legal Agentic AI
+# AdhikarAI: RAG-Based Legal Agentic AI
 
 **Empowering 1.4 Billion Citizens with Digital Legal Literacy**
 
