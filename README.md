@@ -2,7 +2,7 @@
 
 **Empowering 1.4 Billion Citizens with Digital Legal Literacy**
 
-[Live Demo](https://your-app-link.streamlit.app) · [Dify Backend](https://dify.ai) · [Report Bug](https://github.com/Vishakha-Damodhar-01/AdhikarAI/issues)
+[Live Demo](https://adhikar.streamlit.app/) · [Dify Backend](https://dify.ai) · [Report Bug](https://github.com/Vishakha-Damodhar-01/AdhikarAI/issues)
 
 AdhikarAI is a production-grade **RAG-based Agentic AI** designed to bridge the gap between complex legal jargon and citizen awareness. As India transitions from the IPC to the new **Bharatiya Nyaya Sanhita (BNS)** and **BNSS**, AdhikarAI acts as an autonomous legal companion—translating 1,000+ pages of legal code into simple, actionable rights.
 
@@ -44,9 +44,7 @@ Traditional search engines give you links; AdhikarAI gives you answers.
                   ↓
     UI renders response in Tricolour Interface
 ```
----
 
-## 🚀 Features
 ---
 
 ## 🚀 Key Features
@@ -58,7 +56,7 @@ Traditional search engines give you links; AdhikarAI gives you answers.
 *   **📂 Specialized Dataset Toggles:** Users can specifically target their queries toward **Women Safety**, **Labor Laws**, **FIR Rules**, or **Arrest Rights**.
 
 ---  
----
+
 
 ## 🛠️ Tech Stack
 
