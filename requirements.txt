@@ -1,0 +1,9 @@
+streamlit
+requests
+python-dotenv
+watchdog
+
+# streamlit: This is the engine that runs your UI. Without it, the deployment will fail immediately.
+# requests: This allows your Python code to talk to the Dify API.
+# python-dotenv: This is a "best practice" for security. It allows you to use a .env file to hide your API keys locally so they don't get leaked on GitHub.
+# watchdog: This is a performance helper. It helps Streamlit detect when you change your code so it can refresh the app faster.
