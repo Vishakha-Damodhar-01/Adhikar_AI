@@ -75,7 +75,7 @@ Traditional search engines give you links; AdhikarAI gives you answers.
 
 ### 1. Clone the Repo
 ```bash
-git clone [https://github.com/Vishakha-Damodhar-01/AdhikarAI.git](https://github.com/Vishakha-Damodhar-01/AdhikarAI.git)
+git clone https://github.com/Vishakha-Damodhar-01/AdhikarAI.git
 cd AdhikarAI
 ```
 
