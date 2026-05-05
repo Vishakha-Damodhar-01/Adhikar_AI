@@ -1,71 +1,108 @@
-# 🇮🇳 AdhikarAI: AI-Powered Legal Rights Companion
+# AdhikarAI: RAG-Based Legal Agentic AI
 
-**AdhikarAI** is an intelligent legal literacy platform designed to help Indian citizens navigate the transition to the new **Bharatiya Nyaya Sanhita (BNS)** and **Bharatiya Nagarik Suraksha Sanhita (BNSS)** laws. 
+**Empowering 1.4 Billion Citizens with Digital Legal Literacy**
+
+[Live Demo](https://adhikar.streamlit.app/) · [Dify Backend](https://dify.ai) · [Report Bug](https://github.com/Vishakha-Damodhar-01/AdhikarAI/issues)
+
+AdhikarAI is a production-grade **RAG-based Agentic AI** designed to bridge the gap between complex legal jargon and citizen awareness. As India transitions from the IPC to the new **Bharatiya Nyaya Sanhita (BNS)** and **BNSS**, AdhikarAI acts as an autonomous legal companion—translating 1,000+ pages of legal code into simple, actionable rights.
+
+---
+
+## 🧠 Why RAG + Agentic AI for Law?
+
+Traditional search engines give you links; AdhikarAI gives you answers.
+*   **RAG (Retrieval-Augmented Generation):** Unlike standard AI that might hallucinate, our pipeline retrieves exact sections from the **BNS & BNSS 2023** official gazettes.
+*   **Agentic Reasoning:** The system doesn't just summarize; it reasons through the user's specific context (e.g., "Am I being illegally detained?") and provides step-by-step legal procedures.
+*   **Zero-Jargon Policy:** Powered by a custom-prompted LLM engine, every response is simplified to an 8th-grade reading level.
+
+---
+
+## 🎯 What AdhikarAI Does
+
+| Step | Feature | Description |
+| :--- | :--- | :--- |
+| 📂 | **Dataset Selection** | Toggle between Women Safety, Labor Laws, FIR Rules, or General BNS. |
+| 🔍 | **Semantic Search** | Uses vector embeddings to find legal meaning, not just keywords. |
+| 🛡️ | **Rights Guard** | Provides immediate "Know Your Rights" checklists for police interactions. |
+| 📜 | **BNS/BNSS Cross-Ref** | Automatically cites the specific New Law section for every answer. |
+
+---
+
+---
+
+## 🤖 How the AI Works
+##
+
+```text
+       User Asks a Legal Question
+                  ↓
+    Agent Identifies Category & Intent
+                  ↓
+    RAG Pipeline retrieves BNS/BNSS context
+                  ↓
+    LLM processes legal text → Simplified English
+                  ↓
+    UI renders response in Tricolour Interface
+```
 
 ---
 
 ## 🚀 Key Features
-*   **Dataset Toggles:** Specifically target queries toward **Women Safety**, **Labor Laws**, **FIR Rules**, or **Arrest Rights**.
-*   **RAG Architecture:** Retrieval-Augmented Generation ensures answers are grounded in official legal documents.
-*   **Premium UI:** A high-contrast, Indian Flag-themed interface with Glassmorphism effects and teal-blue toggles.
-*   **Contextual Intelligence:** The AI automatically adapts its search based on the category you select.
+
+*   **🧠 RAG-Powered Accuracy:** Unlike standard AI, our pipeline retrieves exact sections from the official **BNS & BNSS 2023** gazettes to prevent hallucinations.
+*   **🤖 Agentic Reasoning:** The system doesn't just summarize; it autonomously reasons through your specific context (e.g., "Am I being illegally detained?") to provide step-by-step legal procedures.
+*   **⚖️ Zero-Jargon Policy:** Every response is processed by a custom-prompted LLM engine to simplify complex legal terms into an 8th-grade reading level.
+*   **🇮🇳 Tricolour Glassmorphism UI:** A premium, modern interface designed with an Indian flag aesthetic, featuring frosted glass effects and high-contrast toggles.
+*   **📂 Specialized Dataset Toggles:** Users can specifically target their queries toward **Women Safety**, **Labor Laws**, **FIR Rules**, or **Arrest Rights**.
+
+---  
+
+
+## 🛠️ Tech Stack
+
+### Backend & AI
+*   **Dify.ai:** Used for RAG orchestration and seamless Knowledge Base management.
+*   **BNS/BNSS Datasets:** Grounded in the official 2023 Indian Legal Gazettes for high accuracy.
+*   **Python:** Powers the core logic, API handling, and data processing.
+
+### Frontend
+*   **Streamlit:** Provides a fast, responsive, and data-focused user interface.
+*   **Custom CSS:** Implements the radiant tricolour background and premium Glassmorphism effects.
 
 ---
 
-## 🧠 Technical Architecture
+## ⚙️ Setup & Installation
 
-### 1. The AI Agent (Dify.ai)
-*   **Knowledge Base:** Created by indexing the official PDFs of the BNS and BNSS 2023 acts.
-*   **Orchestration:** Built using a Dify Chatflow to handle complex legal reasoning.
-*   **API:** Exposed via a secure REST API to communicate with our custom Python frontend.
-
-### 2. The Frontend (Streamlit)
-*   **Layout:** A stable two-column layout that prevents UI shifting.
-*   **Styling:** Custom CSS injection for the tricolour gradient and "Frosted Glass" navigation bar.
-
----
-
-## 🛠️ Installation & Setup
-
-Follow these steps to run AdhikarAI on your local machine.
-
-### 1. Clone the Repository
+### 1. Clone the Repo
 ```bash
-git clone [https://github.com/YOUR_USERNAME/AdhikarAI.git](https://github.com/YOUR_USERNAME/AdhikarAI.git)
+git clone https://github.com/Vishakha-Damodhar-01/AdhikarAI.git
 cd AdhikarAI
+```
 
+----
 ### 2. Install Dependencies
-To install the necessary libraries, run the following command in your terminal:
 ```bash
 pip install -r requirements.txt
+```
 
-### 3. Set Up API Key
-Open the `app.py` file in your code editor and replace the placeholder text with your actual Dify Secret Key:
-```python
+----
+### 3. Configure API Key
+Open app.py and replace the placeholder with your Dify Secret Key:
+```bash
 DIFY_API_KEY = "YOUR_SECRET_API_KEY_HERE"
-
-
+```
+---
 ### 4. Run the Application
-Once the API key is set, launch the application by running this command in your terminal:
-
 ```bash
 streamlit run app.py
+```
 
-🌐 Deployment
-This project is optimized for deployment on Streamlit Community Cloud.
+---
+## 📜 Future Scope
+*  **🗣️ Voice Support:** Implementing Speech-to-Text (STT) functionality for non-literate or visually impaired users.
+* **🌍 Vernacular AI:** Expanding native support for Hindi, Marathi, and other regional languages.
+*  **📱 WhatsApp Integration:** Developing a lightweight legal bot for easy access in rural areas via WhatsApp API.
 
-Push your code to a GitHub repository.
-
-Connect the repository to Streamlit Cloud.
-
-Add your DIFY_API_KEY to the Advanced Settings > Secrets to keep your credentials secure.
-
-📜 Future Scope
-Multilingual Support: Expanding to Hindi, Marathi, and other regional languages.
-
-Voice Integration: Allowing users to ask questions via voice for better accessibility.
-
-Offline Mode: A lightweight version for areas with low internet connectivity.
-
+---
 ## ⚖️ License
 This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
